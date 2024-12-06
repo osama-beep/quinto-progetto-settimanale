@@ -9,11 +9,9 @@ body {
 }
 
 #logoAccount {
-    height: 30px;
+  height: 30px;
   width: auto;
-
 }
-
 
 #menuDropDown {
   background-color: #141414;
@@ -85,3 +83,67 @@ h2 {
   color: #6b6b6b;
   margin-top: 8px;
 }
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+#language {
+  width: auto;
+  flex-grow: 1;
+  background-color: transparent ;
+  color: white;
+}
+
+#optionLanguage {
+    background-color: black;
+}
+
+#placeHolder {
+  background-color: #929292;
+  height: 50px;
+
+  display: flex;
+
+  color: white;
+}
+
+.form-check-input {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-input:checked {
+    background-color: transparent;
+    border-color: #808080;
+    box-shadow: none;
+}
+
+#save {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+}
+
+#cancel {
+    background-color: transparent;
+    color: #808080;
+    padding: 10px 30px;
+    border: 1px solid #808080;
+}
+
+#delete {
+    background-color: transparent;
+    color: #808080;
+    padding: 10px 40px;
+    border: 1px solid #808080;
+}
+
+
+
+
+
+

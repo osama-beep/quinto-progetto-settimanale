@@ -36,9 +36,63 @@
     </header>
 
     <section id="editProfile">
-      <div class="container align-self-center">
-        <h1 class="text-center"> Edit Profile</h1>
-      </div>
-    </section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h1 class="text-left mb-4">Edit Profile</h1>
+              <hr>
+              <div class="d-flex mb-4">
+                <div class="me-3">
+                  <img src="assets/img/avatar.png" alt="Avatar" class="profile-avatar">
+                </div>
+                <div class="flex-grow-1">
+                  <input id="placeHolder" type="text" class="form-control mb-2" placeholder="Epicoder #1">
+                  <div>
+                    <label for="language" class="form-label mb-1">Language:</label>
+                    <select class="form-select" id="language">
+                      <option id="optionLanguage">English</option>
+                      <option id="optionLanguage">Italian</option>
+                      <option id="optionLanguage">Spanish</option>
+                      <option id="optionLanguage">French</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+
+              <hr>
+              <div class="mb-4">
+                <h5>Maturity Settings:</h5>
+                <button class="btn btn-secondary mb-2">ALL MATURITY SETTINGS</button>
+                <p>Show titles of all maturity ratings for this profile</p>
+              </div>
+              <button class="btn btn-outline-secondary mb-4">EDIT</button>
+              <hr>
+              <div class="mb-4">
+                <h5>Autoplay controls</h5>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="autoplayNext">
+                  <label class="form-check-label" for="autoplayNext">
+                    Autoplay next episode in a series on all devices
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="autoplayPreviews">
+                  <label class="form-check-label" for="autoplayPreviews">
+                    Autoplay next episode in a series on all devices
+                  </label>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <button class="btn btn-save" id="save">SAVE</button>
+                <button class="btn btn-cancel" id="cancel">CANCEL</button>
+                <button class="btn btn-delete" id="delete">DELETE PROFILE</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
   </body>
 </html>
