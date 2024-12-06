@@ -1,0 +1,87 @@
+body {
+  background-color: #000000;
+  font-family: Inter;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+}
+
+#logoAccount {
+    height: 30px;
+  width: auto;
+
+}
+
+
+#menuDropDown {
+  background-color: #141414;
+  border: none;
+}
+
+.dropdown-item {
+  color: #e5e5e5;
+}
+
+h1 {
+  color: white;
+}
+
+#genreDropDown {
+  background-color: #141414;
+  border: none;
+}
+
+h2 {
+  color: white;
+}
+
+.carousel-item img {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.07);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+  opacity: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.text-white {
+  color: #6b6b6b;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #6b6b6b;
+}
+
+#footerLink {
+  color: #6b6b6b;
+  margin-left: 10px;
+}
+
+#buttonDiv {
+  margin-top: -40px;
+  color: #6b6b6b;
+}
+
+#buttonService {
+  background-color: transparent;
+  color: #6b6b6b;
+  border: 2px solid #6b6b6b;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#© {
+  color: #6b6b6b;
+  margin-top: 8px;
+}
